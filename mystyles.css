@@ -1,0 +1,91 @@
+body{
+    background-image: url("1.jpg");
+    background-size: cover;         
+
+}
+.bg-video {
+    position: fixed;
+    right: -225px;
+    bottom:-80px;
+    min-width: 100%; 
+    min-height: 50%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: 50%;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: #fbfafa;
+    margin-top: 20px;
+    text-shadow: #fbfafa;
+    font-size: 50px;
+}
+
+nav {
+    background-color: #161111;
+    color: white;
+    padding: 10px;
+    align-items: start;
+    margin-left: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 60px;
+}
+nav ul li a:hover {
+    background-color: white;
+    text-decoration: underline;
+    color: rgb(79, 185, 255);
+    padding: 10px;
+}
+h1,p{
+    color: aliceblue;
+    font-style: italic;
+    font-size: large;
+marquee{
+      font-size: large;
+    }
+
+}
+div{
+    color: rgb(244, 244, 245);
+    font-style: oblique;
+    margin-left:22px ;
+    margin-right: 27px;
+    
+}
+.p p{
+    margin-left: 76px;
+    text-transform: uppercase;
+    text-shadow: #161111;
+    text-size-adjust: larger;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: 10px;
+}
+
+
+
+button{
+    color: rgb(4, 4, 4);
+    padding: auto;
+}
+.Download p{
+    text-align: center;
+
+}

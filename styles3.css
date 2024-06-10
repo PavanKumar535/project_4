@@ -1,0 +1,62 @@
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: rgb(20, 17, 12);
+     text-align: center;
+}
+
+h1{
+    color: black;
+    text-shadow: 0cqmax;
+    text-decoration-line: underline;
+}
+img{
+    border: 0cqmax;
+    border-radius: 20%;
+    color: aqua;
+}
+/* Medium devices (phones, 300px to 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        background-image: linear-gradient(to right, rgb(251, 238, 6),rgba(249, 87, 0, 0.974));
+    }
+    }
+    
+    .navbar a {
+        text-align: center;
+    }
+
+
+
+/* Medium devices (tablets, 600px to 900px) */
+@media screen and (min-width: 600px) and (max-width: 750px) {
+    body {
+        background-color: rgb(9, 246, 9);
+    }
+    
+    .navbar a {
+        float: left;
+    }
+}
+
+/* Large devices (desktops, 900px and up) */
+@media screen and (min-width: 750px)  and (max-width: 900px){
+    body {
+            background-image: linear-gradient(to right, rgb(251, 238, 6),rgb(5, 176, 176));
+        
+    }
+    
+    .navbar a {
+        float: left;
+    }
+}
+@media screen and (min-width: 900px)  and (max-width: 9000px){
+    body {
+            background-image: linear-gradient(to right, rgb(0, 98, 255),rgb(2, 235, 204));
+        
+    }
+    
+    .navbar a {
+        float: left;
+    }
+}
+

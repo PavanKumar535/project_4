@@ -1,0 +1,82 @@
+body{
+    background-image: url("anime.jpg");
+    background-size:cover;
+    backdrop-filter: blur(5px);   
+}
+h2{
+    font-size: larger;
+    font-style: oblique;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+a{
+    color: rgb(24, 8, 242);
+}
+a:hover{
+    text-emphasis: none;
+    text-align: left;
+    background-color: #f7f7f7;
+    color: rgb(1, 9, 9);
+}
+.con{
+text-align: center;
+box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+box-sizing: content-box;
+border: 2px solid rgba(255,255,255,.2);
+border-radius: 10px;
+backdrop-filter: blur(5px);
+padding-top: 0%;
+padding-bottom: 0%;
+padding-left: 0%;
+padding-right: 0%;
+}
+.con a{
+    text-align: center;
+    display: flex;
+    margin: 0 10px;
+    padding: 20px; 
+}
+.link-con {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.link-with-image {
+    margin-right: 30px;
+    text-decoration: none;
+    color: blue;
+}
+
+.link-image {
+    width: 150px;
+    height: 100px;
+    object-fit:cover;
+    border: #b8383890;
+    border-radius: 10px;
+    box-shadow: #b8383890;
+}
+.con img:hover{
+    width: 300px;
+    height:200px;
+
+}
+button {
+            background-color: #0074D9;
+            color: white;
+            border: none;
+            padding: 1%;
+            margin-left: 90%;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+     
+        
+        }
+        
+        
+
+        button:hover {
+            background-color: #0056b3;
+        }

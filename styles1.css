@@ -1,0 +1,23 @@
+
+.container{
+        text-align: center;
+        background: transparent;
+        padding: 30px 40px;
+        background-origin:content-box;
+        color: rgb(247, 245, 245);
+        font-weight: bolder;
+        font-stretch: ultra-condensed;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+        border: 2px solid rgba(255,255,255,.2);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        
+}
+
+
+div{
+    background-position: 0cqmax;
+}
+h1{
+    color: rgb(8, 7, 7);
+}

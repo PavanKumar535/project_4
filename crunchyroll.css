@@ -1,0 +1,17 @@
+
+ .search button{
+    color: #040505;
+    margin: -6px;
+    padding: 1px;
+}
+
+
+.search button:hover{
+    background-color: aqua;
+    
+  animation: hoverShake 0.15s linear 3;
+}
+.search input:hover{
+    background-color: aqua;
+   
+}
